@@ -419,13 +419,13 @@ export default function App() {
               <h4 className="font-bold uppercase text-xs text-slate-400 tracking-widest">Ubicación</h4>
               <div className="flex gap-2 items-start text-slate-700">
                 <MapPin size={18} className="text-blue-500 shrink-0" />
-                <span className="text-sm">Sede SIBI Local (Instalaciones Técnicas Oficiales)</span>
+                <span className="text-sm">Calle Independencia 321, Centro, 45500 San Pedro Tlaquepaque, Jal.</span>
               </div>
             </div>
             <div className="space-y-4">
               <h4 className="font-bold uppercase text-xs text-slate-400 tracking-widest">Contacto Directo</h4>
-              <p className="text-sm text-slate-700 font-medium">soporte@sibi.com.mx</p>
-              <p className="text-sm text-slate-700 font-medium">+52 (55) 1234-5678</p>
+              <p className="text-sm text-slate-700 font-medium">ventas@sibi.mx</p>
+              <p className="text-sm text-slate-700 font-medium">+52 (33) 4302-9006</p>
             </div>
           </div>
         </div>
