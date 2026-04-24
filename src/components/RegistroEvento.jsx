@@ -87,7 +87,7 @@ export default function App() {
       });
 	  
   // Enviar a Google Sheets
-	const SCRIPT_URL = https://script.google.com/macros/s/AKfycbzrsQyCfYYewOb8T_wlWw6KijYGnA7V99QjvqAJcHGBF2e9EB_UYJtP7wLyzZXuITDC1A/exec;
+	const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzrsQyCfYYewOb8T_wlWw6KijYGnA7V99QjvqAJcHGBF2e9EB_UYJtP7wLyzZXuITDC1A/exec';
     
     await fetch(SCRIPT_URL, {
       method: 'POST',
