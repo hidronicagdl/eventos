@@ -85,6 +85,18 @@ export default function App() {
         timestamp: serverTimestamp(),
         userId: user.uid
       });
+	  
+  // Enviar a Google Sheets
+	const SCRIPT_URL = https://script.google.com/macros/s/AKfycbzrsQyCfYYewOb8T_wlWw6KijYGnA7V99QjvqAJcHGBF2e9EB_UYJtP7wLyzZXuITDC1A/exec;
+    
+    await fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors', // Importante para evitar problemas de dominios cruzados
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+  
+  
       setStatus('success');
     } catch (err) {
       console.error(err);
