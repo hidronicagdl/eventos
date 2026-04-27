@@ -110,7 +110,7 @@ export default function App() {
       <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <div className="h-10 w-24 bg-slate-200 rounded flex items-center justify-center font-bold text-xs uppercase tracking-widest text-slate-500">LOGO SIBI</div>
+            <div className="h-10 w-24 bg-slate-200 rounded flex items-center justify-center font-bold text-xs uppercase tracking-widest text-slate-500">SIBI</div>
             <div className="h-[2px] w-8 bg-slate-300 hidden md:block"></div>
             <div className="h-10 w-32 bg-[#003366] rounded flex items-center justify-center text-white font-bold text-xs">GRUNDFOS</div>
           </div>
